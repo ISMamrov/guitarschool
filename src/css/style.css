@@ -1,0 +1,1759 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../JS/Second site/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../JS/Second site/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../JS/Second site/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../JS/Second site/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../JS/Second site/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../JS/Second site/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../JS/Second site/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../JS/Second site/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../JS/Second site/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../JS/Second site/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../JS/Second site/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../JS/Second site/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../JS/Second site/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../JS/Second site/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../JS/Second site/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../JS/Second site/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../JS/Second site/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../JS/Second site/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../JS/Second site/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../JS/Second site/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../JS/Second site/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../JS/Second site/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../JS/Second site/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../JS/Second site/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../JS/Second site/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../JS/Second site/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../JS/Second site/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../JS/Second site/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../JS/Second site/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../JS/Second site/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../JS/Second site/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../JS/Second site/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../JS/Second site/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../JS/Second site/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/*
+	HTML5 Reset :: style.css
+	----------------------------------------------------------
+	We have learned much from/been inspired by/taken code where offered from:
+
+	Eric Meyer					:: https://meyerweb.com
+	HTML5 Doctor				:: https://html5doctor.com
+	and the HTML5 Boilerplate	:: https://html5boilerplate.com
+
+-------------------------------------------------------------------------------*/
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+/* line 15, ../JS/Second site/src/sass/resets.scss */
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 25, ../JS/Second site/src/sass/resets.scss */
+article, aside, figure, footer, header, nav, section, details, summary {
+  display: block;
+}
+
+/* Handle box-sizing while better addressing child elements:
+   https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+/* line 29, ../JS/Second site/src/sass/resets.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 33, ../JS/Second site/src/sass/resets.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* Responsive images and other embedded objects
+*/
+/* line 43, ../JS/Second site/src/sass/resets.scss */
+img,
+object,
+embed {
+  max-width: 100%;
+}
+
+/*
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+	 In fact, it *will* cause problems with Google Maps' controls at small size.
+	If this is the case for you, try uncommenting the following:
+
+#map img {
+		max-width: none;
+}
+*/
+/* force a vertical scrollbar to prevent a jumpy page */
+/* line 58, ../JS/Second site/src/sass/resets.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* we use a lot of ULs that aren't bulleted.
+	don't forget to restore the bullets within content. */
+/* line 62, ../JS/Second site/src/sass/resets.scss */
+ul {
+  list-style: none;
+}
+
+/* line 64, ../JS/Second site/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 66, ../JS/Second site/src/sass/resets.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 71, ../JS/Second site/src/sass/resets.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 73, ../JS/Second site/src/sass/resets.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 75, ../JS/Second site/src/sass/resets.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+/* tables still need cellspacing="0" in the markup */
+/* line 78, ../JS/Second site/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 79, ../JS/Second site/src/sass/resets.scss */
+th {
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+/* line 80, ../JS/Second site/src/sass/resets.scss */
+td {
+  font-weight: normal;
+  vertical-align: top;
+}
+
+/* line 82, ../JS/Second site/src/sass/resets.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 84, ../JS/Second site/src/sass/resets.scss */
+input, select {
+  vertical-align: middle;
+}
+
+/* line 86, ../JS/Second site/src/sass/resets.scss */
+pre {
+  white-space: pre;
+  /* CSS2 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */
+}
+
+/* line 93, ../JS/Second site/src/sass/resets.scss */
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+
+/* line 94, ../JS/Second site/src/sass/resets.scss */
+input[type="checkbox"] {
+  vertical-align: bottom;
+}
+
+/* line 95, ../JS/Second site/src/sass/resets.scss */
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline;
+}
+
+/* line 96, ../JS/Second site/src/sass/resets.scss */
+.ie6 input {
+  vertical-align: text-bottom;
+}
+
+/* line 98, ../JS/Second site/src/sass/resets.scss */
+select, input, textarea {
+  font: 99% sans-serif;
+}
+
+/* line 100, ../JS/Second site/src/sass/resets.scss */
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/* line 102, ../JS/Second site/src/sass/resets.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 104, ../JS/Second site/src/sass/resets.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 106, ../JS/Second site/src/sass/resets.scss */
+td, td img {
+  vertical-align: top;
+}
+
+/* Make sure sup and sub don't mess with your line-heights https://gist.github.com/413930 */
+/* line 109, ../JS/Second site/src/sass/resets.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+/* line 110, ../JS/Second site/src/sass/resets.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 111, ../JS/Second site/src/sass/resets.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* standardize any monospaced elements */
+/* line 114, ../JS/Second site/src/sass/resets.scss */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+/* hand cursor on clickable elements */
+/* line 117, ../JS/Second site/src/sass/resets.scss */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+/* line 125, ../JS/Second site/src/sass/resets.scss */
+button, input, select, textarea {
+  margin: 0;
+}
+
+/* make buttons play nice in IE */
+/* line 128, ../JS/Second site/src/sass/resets.scss */
+button,
+input[type=button] {
+  width: auto;
+  overflow: visible;
+}
+
+/* scale images in IE7 more attractively */
+/* line 132, ../JS/Second site/src/sass/resets.scss */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* prevent BG image flicker upon hover
+   (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+/* let's clear some floats */
+/* line 140, ../JS/Second site/src/sass/resets.scss */
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 141, ../JS/Second site/src/sass/resets.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 142, ../JS/Second site/src/sass/resets.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 4, ../JS/Second site/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../JS/Second site/src/sass/style.sass */
+html {
+  font-family: "MontserratT";
+  font-weight: regular;
+}
+
+/* line 28, ../JS/Second site/src/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 32, ../JS/Second site/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background: #F0F0F0;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+/* line 38, ../JS/Second site/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 44, ../JS/Second site/src/sass/style.sass */
+.main-section__logo {
+  width: 134px;
+}
+
+/* line 46, ../JS/Second site/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 50, ../JS/Second site/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 80px;
+}
+
+/* line 54, ../JS/Second site/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  top: 650px;
+  right: -120px;
+}
+
+/* line 61, ../JS/Second site/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 64, ../JS/Second site/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 68, ../JS/Second site/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 70, ../JS/Second site/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 74, ../JS/Second site/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 76, ../JS/Second site/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 79, ../JS/Second site/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  width: 565.95px;
+  height: 220px;
+  background: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 91, ../JS/Second site/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 103, ../JS/Second site/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 115, ../JS/Second site/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 2;
+}
+
+/* line 121, ../JS/Second site/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 124, ../JS/Second site/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 126, ../JS/Second site/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 131, ../JS/Second site/src/sass/style.sass */
+.icons {
+  display: inline-flex;
+}
+
+/* line 133, ../JS/Second site/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5290EA;
+  border-radius: 100px;
+  margin-right: 17px;
+}
+
+/* line 142, ../JS/Second site/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 144, ../JS/Second site/src/sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 147, ../JS/Second site/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+  font-weight: bold;
+}
+
+/* line 151, ../JS/Second site/src/sass/style.sass */
+.title__hr {
+  width: 65px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+}
+
+/* line 159, ../JS/Second site/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 161, ../JS/Second site/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 172, ../JS/Second site/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 175, ../JS/Second site/src/sass/style.sass */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 177, ../JS/Second site/src/sass/style.sass */
+.buttons__text {
+  font-size: 16px;
+}
+
+/* line 180, ../JS/Second site/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, #ED7B50 24.85%, #488AEA 63.25%, #2C2C2C 95.74%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 188, ../JS/Second site/src/sass/style.sass */
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 191, ../JS/Second site/src/sass/style.sass */
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 196, ../JS/Second site/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 201, ../JS/Second site/src/sass/style.sass */
+.second-section {
+  overflow: hidden;
+  min-height: 700px;
+}
+
+/* line 204, ../JS/Second site/src/sass/style.sass */
+.second-section__container {
+  padding-top: 32px;
+  position: relative;
+}
+
+/* line 207, ../JS/Second site/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 40px;
+}
+
+/* line 209, ../JS/Second site/src/sass/style.sass */
+.second-section__cards-box {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+/* line 213, ../JS/Second site/src/sass/style.sass */
+.second-section__cards-item {
+  margin-right: 30px;
+}
+
+/* line 215, ../JS/Second site/src/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 217, ../JS/Second site/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 220, ../JS/Second site/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 225, ../JS/Second site/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 364px;
+  left: -60px;
+  z-index: -1;
+}
+
+/* line 232, ../JS/Second site/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background-color: #E2E2E2;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 240, ../JS/Second site/src/sass/style.sass */
+.cards-item__img {
+  width: 197px;
+  height: 335px;
+}
+
+/* line 243, ../JS/Second site/src/sass/style.sass */
+.cards-item__text {
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 144px;
+  right: -45px;
+  font-weight: bold;
+}
+
+/* line 252, ../JS/Second site/src/sass/style.sass */
+.cards-item_orange {
+  background-color: #F28B64;
+}
+
+/* line 254, ../JS/Second site/src/sass/style.sass */
+.cards-item_blue {
+  background-color: #5290EA;
+}
+
+/* line 256, ../JS/Second site/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 259, ../JS/Second site/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 262, ../JS/Second site/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 264, ../JS/Second site/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 267, ../JS/Second site/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #F0F0F0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* line 273, ../JS/Second site/src/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 280, ../JS/Second site/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 282, ../JS/Second site/src/sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 284, ../JS/Second site/src/sass/style.sass */
+.third-section__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+/* line 287, ../JS/Second site/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+
+/* line 292, ../JS/Second site/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 12px;
+  z-index: -1;
+}
+
+/* line 297, ../JS/Second site/src/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 301, ../JS/Second site/src/sass/style.sass */
+.title__hr_top {
+  bottom: 75px;
+}
+
+/* line 304, ../JS/Second site/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 308, ../JS/Second site/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 313, ../JS/Second site/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 317, ../JS/Second site/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 319, ../JS/Second site/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 322, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper img {
+    width: 750px;
+  }
+  /* line 324, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 327, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 550px;
+    height: 200px;
+  }
+  /* line 330, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 333, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper {
+    right: 20px;
+  }
+  /* line 335, ../JS/Second site/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 10px;
+  }
+  /* line 337, ../JS/Second site/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 560px;
+  }
+  /* line 340, ../JS/Second site/src/sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
+  /* line 342, ../JS/Second site/src/sass/style.sass */
+  .second-section__card-box {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 345, ../JS/Second site/src/sass/style.sass */
+  .cards-item {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 348, ../JS/Second site/src/sass/style.sass */
+  .cards-item__img {
+    height: 270px;
+    width: 160px;
+  }
+  /* line 351, ../JS/Second site/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 30px;
+    top: 120px;
+    margin-right: 20px;
+  }
+  /* line 355, ../JS/Second site/src/sass/style.sass */
+  .icons-item__img {
+    margin-right: 10px;
+  }
+  /* line 358, ../JS/Second site/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+  }
+  /* line 360, ../JS/Second site/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+/* самостоятельно */
+@media (max-width: 991px) {
+  /* line 365, ../JS/Second site/src/sass/style.sass */
+  .container {
+    width: 755px;
+  }
+  /* line 367, ../JS/Second site/src/sass/style.sass */
+  .main-section {
+    min-height: 524px;
+  }
+  /* line 369, ../JS/Second site/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 0px;
+    top: 66px;
+  }
+  /* line 372, ../JS/Second site/src/sass/style.sass */
+  .elipse {
+    width: 150px;
+    height: 150px;
+  }
+  /* line 375, ../JS/Second site/src/sass/style.sass */
+  .elipse__subtract {
+    width: 110px;
+    height: 110px;
+  }
+  /* line 378, ../JS/Second site/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 170px;
+    height: 170px;
+  }
+  /* line 382, ../JS/Second site/src/sass/style.sass */
+  .elipse_dig {
+    top: 410px;
+    width: 250px;
+    height: 250px;
+  }
+  /* line 387, ../JS/Second site/src/sass/style.sass */
+  .second-elipse {
+    top: 556px;
+  }
+  /* line 390, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper img {
+    width: 540px;
+  }
+  /* line 392, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 470px;
+    height: 130px;
+    left: -100px;
+  }
+  /* line 396, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 501px;
+    height: 130px;
+    left: -73px;
+  }
+  /* line 400, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 501px;
+    height: 130px;
+    left: -34px;
+  }
+  /* line 404, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper {
+    width: 350px;
+    top: 60px;
+    right: -2px;
+  }
+  /* line 408, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper__icons-box {
+    padding-left: 71px;
+  }
+  /* line 411, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper__title {
+    font-size: 60px;
+  }
+  /* line 413, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  /* line 418, ../JS/Second site/src/sass/style.sass */
+  .buttons__main-btn {
+    font-size: 14px;
+    margin-right: 10px;
+    width: 170px;
+    height: 45px;
+  }
+  /* line 424, ../JS/Second site/src/sass/style.sass */
+  .second-section {
+    min-height: 430px;
+  }
+  /* line 426, ../JS/Second site/src/sass/style.sass */
+  .second-section__container {
+    padding-top: 20px;
+  }
+  /* line 428, ../JS/Second site/src/sass/style.sass */
+  .second-section__title {
+    font-size: 60px;
+    margin-bottom: 14px;
+  }
+  /* line 431, ../JS/Second site/src/sass/style.sass */
+  .second-section__cards-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+  /* line 435, ../JS/Second site/src/sass/style.sass */
+  .second-section .cards-item {
+    width: 220px;
+    height: 220px;
+  }
+  /* line 438, ../JS/Second site/src/sass/style.sass */
+  .second-section .cards-item__img {
+    height: 215px;
+    width: 130px;
+  }
+  /* line 441, ../JS/Second site/src/sass/style.sass */
+  .second-section .cards-item__text {
+    font-size: 28px;
+    top: 80px;
+    margin-right: -44px;
+  }
+  /* line 446, ../JS/Second site/src/sass/style.sass */
+  .second-section .icons-item__img {
+    width: 50px;
+    margin-right: 5px;
+  }
+  /* line 449, ../JS/Second site/src/sass/style.sass */
+  .second-section .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 451, ../JS/Second site/src/sass/style.sass */
+  .second-section .icons-item span {
+    font-size: 38px;
+    font-weight: bold;
+  }
+  /* line 454, ../JS/Second site/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 30px;
+    right: -5px;
+  }
+  /* line 457, ../JS/Second site/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 196px;
+    left: -26px;
+  }
+  /* line 461, ../JS/Second site/src/sass/style.sass */
+  .third-section {
+    min-height: 510px;
+  }
+  /* line 463, ../JS/Second site/src/sass/style.sass */
+  .third-section__container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  /* line 467, ../JS/Second site/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 600px;
+  }
+  /* line 469, ../JS/Second site/src/sass/style.sass */
+  .third-section .title {
+    font-size: 60px;
+  }
+  /* line 471, ../JS/Second site/src/sass/style.sass */
+  .third-section__left-title {
+    display: none;
+  }
+  /* line 473, ../JS/Second site/src/sass/style.sass */
+  .third-section__text {
+    font-size: 16px;
+    margin-bottom: 45px;
+  }
+  /* line 476, ../JS/Second site/src/sass/style.sass */
+  .third-section__first-elipse {
+    top: 150px;
+    right: -5px;
+  }
+  /* line 479, ../JS/Second site/src/sass/style.sass */
+  .third-section__second-elipse {
+    top: -100px;
+  }
+  /* line 483, ../JS/Second site/src/sass/style.sass */
+  .title__hr_top {
+    bottom: 60px;
+  }
+  /* line 487, ../JS/Second site/src/sass/style.sass */
+  .footer__img {
+    width: 500px;
+    left: -175px;
+  }
+  /* line 490, ../JS/Second site/src/sass/style.sass */
+  .footer__container {
+    min-height: 210px;
+  }
+  /* line 492, ../JS/Second site/src/sass/style.sass */
+  .footer .title {
+    margin-bottom: 10px;
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 497, ../JS/Second site/src/sass/style.sass */
+  .container {
+    width: 575px;
+  }
+  /* line 499, ../JS/Second site/src/sass/style.sass */
+  .main-section {
+    min-height: 395px;
+  }
+  /* line 501, ../JS/Second site/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 0px;
+    top: 31px;
+  }
+  /* line 504, ../JS/Second site/src/sass/style.sass */
+  .main-section__logo {
+    width: 116px;
+  }
+  /* line 507, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper img {
+    width: 385px;
+  }
+  /* line 509, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 287px;
+    height: 86px;
+    left: -55px;
+    top: 87px;
+  }
+  /* line 514, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 306px;
+    height: 89px;
+    left: -39px;
+    top: 94px;
+  }
+  /* line 519, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 302px;
+    height: 94px;
+    left: -19px;
+    top: 112px;
+  }
+  /* line 524, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper {
+    width: 306px;
+    top: 8px;
+    right: -2px;
+  }
+  /* line 528, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper__title {
+    font-size: 56px;
+    margin-bottom: 7px;
+  }
+  /* line 531, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  /* line 535, ../JS/Second site/src/sass/style.sass */
+  .buttons__main-btn {
+    font-size: 14px;
+    margin-right: 10px;
+    width: 150px;
+    height: 40px;
+  }
+  /* line 540, ../JS/Second site/src/sass/style.sass */
+  .buttons__icon-btn {
+    font-size: 14px;
+  }
+  /* line 542, ../JS/Second site/src/sass/style.sass */
+  .elipse {
+    width: 130px;
+    height: 130px;
+  }
+  /* line 545, ../JS/Second site/src/sass/style.sass */
+  .elipse__subtract {
+    width: 90px;
+    height: 90px;
+  }
+  /* line 548, ../JS/Second site/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 170px;
+    height: 170px;
+  }
+  /* line 551, ../JS/Second site/src/sass/style.sass */
+  .elipse_dig {
+    top: 300px;
+    width: 230px;
+    height: 230px;
+  }
+  /* line 556, ../JS/Second site/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: #E2E2E2;
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  /* line 565, ../JS/Second site/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 570, ../JS/Second site/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 573, ../JS/Second site/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 30;
+  }
+  /* line 580, ../JS/Second site/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 0.6s all;
+  }
+  /* line 587, ../JS/Second site/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 590, ../JS/Second site/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 593, ../JS/Second site/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 595, ../JS/Second site/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 597, ../JS/Second site/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 600, ../JS/Second site/src/sass/style.sass */
+  .nav-menu_active {
+    display: block;
+    right: 0px;
+  }
+  /* line 604, ../JS/Second site/src/sass/style.sass */
+  .second-section {
+    min-height: 398px;
+  }
+  /* line 606, ../JS/Second site/src/sass/style.sass */
+  .second-section__container {
+    width: 522px;
+    padding-top: 0px;
+  }
+  /* line 609, ../JS/Second site/src/sass/style.sass */
+  .second-section__title {
+    font-size: 56px;
+    margin-bottom: 10px;
+  }
+  /* line 612, ../JS/Second site/src/sass/style.sass */
+  .second-section .cards-item {
+    margin-right: 10px;
+  }
+  /* line 614, ../JS/Second site/src/sass/style.sass */
+  .second-section .cards-item__img {
+    height: 195px;
+    width: 115px;
+  }
+  /* line 617, ../JS/Second site/src/sass/style.sass */
+  .second-section .cards-item__text {
+    font-size: 22px;
+    top: 85px;
+    margin-right: -69px;
+  }
+  /* line 621, ../JS/Second site/src/sass/style.sass */
+  .second-section__cards-box {
+    margin-bottom: 35px;
+  }
+  /* line 624, ../JS/Second site/src/sass/style.sass */
+  .second-section .icons-item__img {
+    width: 40px;
+    margin-right: 2px;
+  }
+  /* line 627, ../JS/Second site/src/sass/style.sass */
+  .second-section .icons-item__text {
+    font-size: 12px;
+  }
+  /* line 629, ../JS/Second site/src/sass/style.sass */
+  .second-section__icons-box {
+    justify-content: space-around;
+  }
+  /* line 631, ../JS/Second site/src/sass/style.sass */
+  .second-section .icons-item span {
+    font-size: 30px;
+  }
+  /* line 633, ../JS/Second site/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 13px;
+    right: -25px;
+  }
+  /* line 636, ../JS/Second site/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 204px;
+    left: -25px;
+  }
+  /* line 640, ../JS/Second site/src/sass/style.sass */
+  .third-section {
+    min-height: 485px;
+  }
+  /* line 642, ../JS/Second site/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  /* line 645, ../JS/Second site/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 600px;
+  }
+  /* line 647, ../JS/Second site/src/sass/style.sass */
+  .third-section .title {
+    font-size: 56px;
+  }
+  /* line 649, ../JS/Second site/src/sass/style.sass */
+  .third-section__right-title {
+    margin-bottom: 10px;
+  }
+  /* line 651, ../JS/Second site/src/sass/style.sass */
+  .third-section__left-title {
+    display: none;
+  }
+  /* line 653, ../JS/Second site/src/sass/style.sass */
+  .third-section__text {
+    font-size: 14px;
+    margin-bottom: 70px;
+  }
+  /* line 656, ../JS/Second site/src/sass/style.sass */
+  .third-section__first-elipse {
+    top: 150px;
+    right: -5px;
+  }
+  /* line 659, ../JS/Second site/src/sass/style.sass */
+  .third-section__second-elipse {
+    top: -100px;
+  }
+  /* line 662, ../JS/Second site/src/sass/style.sass */
+  .title__hr_top {
+    bottom: 60px;
+  }
+  /* line 664, ../JS/Second site/src/sass/style.sass */
+  .title__hr {
+    width: 60px;
+  }
+  /* line 668, ../JS/Second site/src/sass/style.sass */
+  .footer__img {
+    width: 450px;
+    left: -144px;
+    top: -22px;
+  }
+  /* line 672, ../JS/Second site/src/sass/style.sass */
+  .footer__container {
+    min-height: 175px;
+  }
+  /* line 674, ../JS/Second site/src/sass/style.sass */
+  .footer .title {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  /* line 677, ../JS/Second site/src/sass/style.sass */
+  .footer .title__hr_top {
+    bottom: 37px;
+  }
+  /* line 679, ../JS/Second site/src/sass/style.sass */
+  .footer .title .title__hr {
+    width: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 683, ../JS/Second site/src/sass/style.sass */
+  .container {
+    width: 320px;
+  }
+  /* line 685, ../JS/Second site/src/sass/style.sass */
+  .main-section {
+    min-height: 535px;
+  }
+  /* line 687, ../JS/Second site/src/sass/style.sass */
+  .main-section__logo {
+    width: 100px;
+  }
+  /* line 691, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper img {
+    width: 250px;
+  }
+  /* line 693, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    display: none;
+  }
+  /* line 695, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    display: none;
+  }
+  /* line 697, ../JS/Second site/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    display: none;
+  }
+  /* line 701, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper__text {
+    margin-bottom: 110px;
+  }
+  /* line 703, ../JS/Second site/src/sass/style.sass */
+  .right-wrapper__button {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  /* line 707, ../JS/Second site/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
